@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "600582516202",
+    "project_id": "parking-e61e7",
+    "storage_bucket": "parking-e61e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600582516202:android:06b05d9d885bf78a231693",
+        "android_client_info": {
+          "package_name": "com.bensaya.daniel_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600582516202-dmsm59qdqgeg8rja8073t5cauo0i23ce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE0yPetXGLo5S5eKE4mVNeFtRYh5iPvVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600582516202-dmsm59qdqgeg8rja8073t5cauo0i23ce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
