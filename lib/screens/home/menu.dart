@@ -2,6 +2,7 @@ import 'package:daniel_test/screens/auto/authenticate.dart';
 import 'package:daniel_test/screens/auto/sign_in.dart';
 import 'package:daniel_test/screens/home/home.dart';
 import 'package:daniel_test/screens/home/laundry_room.dart';
+import 'package:daniel_test/screens/home/spaces.dart';
 import 'package:daniel_test/screens/home/user_details.dart';
 import 'package:daniel_test/screens/wrapper.dart';
 import 'package:daniel_test/services/auth_service.dart';
@@ -81,6 +82,28 @@ class MenuState extends State<Menu> {
                             borderRadius: BorderRadius.circular(20)),
                         child: const Text(
                           'Laundry Room',
+                          style: TextStyle(
+                              fontSize: 20, fontWeight: FontWeight.bold),
+                        ),
+                      ),
+                      SizedBox(
+                        height: 50,
+                      ),
+                      MaterialButton(
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => SpacesRoom()));
+                        },
+                        height: 70,
+                        minWidth: double.infinity,
+                        color: Theme.of(context).primaryColor,
+                        textColor: Colors.white,
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(20)),
+                        child: const Text(
+                          'Spaces',
                           style: TextStyle(
                               fontSize: 20, fontWeight: FontWeight.bold),
                         ),
